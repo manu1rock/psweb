@@ -1,5 +1,4 @@
-// Sample node.js web app for Pluralsight Docker CI course
-// For demonstration purposes only
+// Sample node.js web app 
 'use strict';
 
 var express = require('express'),
@@ -13,5 +12,5 @@ app.get('/', function(req, res) {
   });
 });
 
-app.listen(8080);
+app.listen(8083);
 module.exports.getApp = app;
