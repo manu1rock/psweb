@@ -2,7 +2,7 @@
 # Linux x64
 FROM alpine
 
-LABEL maintainer="nigelpoulton@hotmail.com"
+LABEL maintainer="manuvns.manoj@gmail.com"
 
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
@@ -15,6 +15,6 @@ WORKDIR /src
 # Install dependencies
 RUN  npm install
 
-EXPOSE 8080
+EXPOSE 8084
 
 ENTRYPOINT ["node", "./app.js"]
